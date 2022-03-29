@@ -58,6 +58,11 @@ function App() {
   const renderForm = (
     <div className="form">
       <form onSubmit={handleSubmit}>
+        <div>
+        <a href="/" class="img-container">
+         
+        </a>
+        </div>
         <div className="input-container">
           <label>Username </label>
           <input type="text" name="uname" required />
