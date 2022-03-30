@@ -83,8 +83,8 @@ function App() {
   return (
     <div className="app">
       <div className="login-form">
-        <div className="title">Sign In</div>
-        {isSubmitted ? <div>User is successfully logged in</div> : renderForm}
+        <div className="title"></div>
+        {isSubmitted ? <div>Giriş Başarılı !</div> : renderForm}
       </div>
     </div>
   );
